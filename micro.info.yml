@@ -1,0 +1,20 @@
+core: 8.x
+type: theme
+base theme: classy
+name: 'Micro'
+description: 'Micro theme.'
+
+regions:
+  navigation: 'Navigation'
+  header: 'Top Bar'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  content: 'Content'
+  sidebar_left: 'Sidebar Left'
+  sidebar_right: 'Sidebar right'
+  page_footer_left: 'Footer Left'
+  page_footer_middle: 'Footer Middle'
+  page_footer_right: 'Footer Right'
+  page_footer_bottom: 'Footer Bottom'
+
+
