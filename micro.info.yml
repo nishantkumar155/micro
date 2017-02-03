@@ -5,6 +5,7 @@ name: 'Micro'
 description: 'Micro theme.'
 
 regions:
+  branding: 'Branding'
   navigation: 'Navigation'
   header: 'Top Bar'
   highlighted: 'Highlighted'
@@ -16,5 +17,8 @@ regions:
   page_footer_middle: 'Footer Middle'
   page_footer_right: 'Footer Right'
   page_footer_bottom: 'Footer Bottom'
+
+libraries:
+  - 'micro/global-styling'
 
 

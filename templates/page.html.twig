@@ -1,13 +1,16 @@
-<nav class="navbar navbar-default">{{ page.navigation }}<nav/>
-{{ page.header }}
-{{ page.highlighted }}
-{{ page.help }}
-{{ page.content }}
-{{ page.sidebar_left }}
-{{ page.help }}
-{{ page.content }}
-{{ page.sidebar_right }}
-{{ page.page_footer_left }}
-{{ page.page_footer_middle }}
-{{ page.page_footer_right }}
-{{ page.bottom }}
+<header id="header">
+    <div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 col-lg-8">
+            {% if page.branding %}
+                {{ page.branding }}
+            {% endif %}
+        </div>
+        <div class="col-xs-6 .col-lg-4">
+            {% if page.navigation %}
+                {{ page.navigation }}
+            {% endif %}
+        </div>
+    </div>
+    </div>
+</header>
